@@ -10,13 +10,11 @@ CORS(app)
 
 # This simulates service data that should come from database or
 # configuration file.
-cripto_service = {'operation':'/cripto', 'address':'localhost', 'port':5001, 'route':'/cripto'}
-lowercase_service = {'operation':'/lower_case', 'address':'localhost', 'port':5000, 'route':'/lower_case'}
 persistence_service = {'operation':'/persistence', 'address':'localhost', 'port':5004, 'route':'/add'}
 list_service = {'operation':'/list', 'address':'localhost', 'port':5007, 'route':'/list'}
 
 
-service_registry = [cripto_service, lowercase_service, persistence_service , list_service]
+service_registry = [persistence_service , list_service]
 
 @app.route('/api_gateway/<operation>')
 def api_gateway(operation):
