@@ -1,9 +1,9 @@
 # Api_gateway
-api gateway repositorio
+Api gateway repositorio
 
 ## Requisitos
 Certifique-se de ter em sua maquina alguma versão do python <br>
-[link da instalação d python](https://www.python.org/downloads/)
+[Python](https://www.python.org/downloads/)
 
 ## Como rodar 
 1 - Entre na raiz do projeto.<br>
